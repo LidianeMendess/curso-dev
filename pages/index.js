@@ -5,12 +5,12 @@ export default function Home() {
     <main className={styles.container}>
 
       <img 
-        src="/sua-foto.jpg" 
+        src="foto.jpg" 
         alt="Foto de Lidiane"
         className={styles.foto}
       />
 
-     <h1 style={{ color: "red" }}>Lidiane Mendes</h1>
+     <h1 style>Lidiane Mendes</h1>
 
       <p className={styles.descricao}>
         Desenvolvedora Java em formação

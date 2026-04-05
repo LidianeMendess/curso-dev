@@ -5,7 +5,7 @@ export default function Home() {
     <main className={styles.container}>
 
       <img 
-        src="foto.jpg" 
+        src="/foto.jpg" 
         alt="Foto de Lidiane"
         className={styles.foto}
       />

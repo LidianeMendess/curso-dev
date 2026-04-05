@@ -10,7 +10,7 @@ export default function Home() {
         className={styles.foto}
       />
 
-      <h1>Lidiane Mendes</h1>
+     <h1 style={{ color: "red" }}>Lidiane Mendes</h1>
 
       <p className={styles.descricao}>
         Desenvolvedora Java em formação

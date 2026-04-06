@@ -3,6 +3,12 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <main className={styles.container}>
+      
+        <img 
+        src="/foto.jpg" 
+        alt="Foto de Lidiane Mendes"
+        style={{ width: "150px", borderRadius:     "50%" }}
+      />
 
       <h1>Lidiane Mendes</h1>
 

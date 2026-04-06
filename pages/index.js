@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className={styles.container}>
 
-     <h1 style>Lidiane Mendes</h1>
+      <h1>Lidiane Mendes</h1>
 
       <p className={styles.descricao}>
         Desenvolvedora
@@ -12,8 +12,8 @@ export default function Home() {
 
       <div className={styles.links}>
         <a href="https://www.linkedin.com/in/lidiane-mendess" target="_blank">
-  LinkedIn
-       </a>
+          LinkedIn
+        </a>
       </div>
 
     </main>

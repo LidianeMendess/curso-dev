@@ -4,21 +4,16 @@ export default function Home() {
   return (
     <main className={styles.container}>
 
-      <img 
-        src="/foto.jpg" 
-        alt="Foto de Lidiane"
-        className={styles.foto}
-      />
-
      <h1 style>Lidiane Mendes</h1>
 
       <p className={styles.descricao}>
-        Desenvolvedora Java em formação
+        Desenvolvedora
       </p>
 
       <div className={styles.links}>
-        <a href="#">GitHub</a>
-        <a href="#">LinkedIn</a>
+        <a.  href="https://www.linkedin.com/in/lidiane-mendess" target="_blank">
+  LinkedIn
+       </a>
       </div>
 
     </main>

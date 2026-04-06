@@ -11,7 +11,7 @@ export default function Home() {
       </p>
 
       <div className={styles.links}>
-        <a.  href="https://www.linkedin.com/in/lidiane-mendess" target="_blank">
+        <a href="https://www.linkedin.com/in/lidiane-mendess" target="_blank">
   LinkedIn
        </a>
       </div>

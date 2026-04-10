@@ -41,8 +41,8 @@ export default function Home() {
       <section id="sobre" className={styles.sobre}>
         <h2>Sobre</h2>
         <p>
-          Sou desenvolvedora focada em backend com Java e Spring Boot,
-          com experiência na criação de APIs REST e sistemas escaláveis.
+          Sou desenvolvedora em formação. Atualmente atuo na IntelexIA (Grupo DPG), trabalhando com desenvolvimento e manutenção de automações, além de contribuir com melhorias em sistemas internos.
+Tenho experiência na construção de APIs REST e aplicação de boas práticas de desenvolvimento, como organização de código e versionamento com GitHub.
         </p>
       </section>
 

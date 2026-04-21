@@ -1,6 +1,25 @@
+import { useState} from "react";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+
+  const [num1,setNum1] = useState("");
+  const [num2,setNum2] = useState("");
+  const [resultado, setResultado] = useState(0);
+
+  function somar(){
+    setResultado(Number(num1) + Number (num2));
+  }
+  function subtrair(){
+    setResultado(Number(num1) - Number(num2));
+  }
+  function multiplicar(){
+    setResultado(Number(num1) * Number(num2));
+  }
+  function dividir(){
+    setResultado(Number(num1) / Number(num2));
+  }
+
   return (
     <main className={styles.container}>
 
@@ -10,6 +29,7 @@ export default function Home() {
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
+          <li><a href="#calculadora">Calculadora</a></li>
         </ul>
       </nav>
 
@@ -76,6 +96,31 @@ Tenho experiência na construção de APIs REST e aplicação de boas práticas 
         <h2>Contato</h2>
         <p>Email: lidyaraujo64@gmail.com</p>
       </section>
+
+      <section id="calculadora" className={styles.calculadora}>
+        <h2>Calculadora</h2>
+
+        <input
+        type='number'
+        placeholder='Número 1'
+        onChange={(e)=>setNum1(e.target.value)}
+        />
+
+        <input
+        type='number'
+        placeholder='Número 2'
+        onChange={(e)=>setNum2(e.target.value)}
+        />
+
+      <div>
+        <button onClick={somar}>+</button>
+        <button onClick={subtrair}>-</button>
+        <button onClick={multiplicar}>*</button>
+        <button onClick={dividir}>/</button>
+      </div>
+
+      <h3>Resultado: {resultado}</h3>
+  </section>
 
     </main>
   );
